@@ -1,8 +1,8 @@
-#include <libxml2/libxml/globals.h>
-#include <libxml2/libxml/HTMLtree.h>
-#include <libxml2/libxml/xpath.h>
+#include <libxml/globals.h>
+#include <libxml/HTMLtree.h>
+#include <libxml/xpath.h>
 #ifdef __linux__
-#include <libxml2/libxml/xpathInternals.h>
+#include <libxml/xpathInternals.h>
 #else
-#include <libxml2/libxml/xpathinternals.h>
+#include <libxml/xpathinternals.h>
 #endif
