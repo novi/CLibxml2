@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "CLibxml2",
+    pkgConfig: "libxml-2.0",
     products: [
         .library(
             name: "CLibxml2",
