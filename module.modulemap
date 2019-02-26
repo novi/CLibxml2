@@ -1,5 +1,5 @@
 module CLibXML2 [system] {
-    umbrella header "shim.h"
+    header "shim.h"
     link "xml2"
     export *
 }
