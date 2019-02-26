@@ -2,16 +2,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "CLibxml2",
+    name: "CLibXML2",
     pkgConfig: "libxml-2.0",
     products: [
         .library(
-            name: "CLibxml2",
-            targets: ["CLibxml2"]
+            name: "CLibXML2",
+            targets: ["CLibXML2"]
         )
     ],
     targets: [
-        .target(name: "CLibxml2")
+        .target(name: "CLibXML2")
     ]
 )
 
